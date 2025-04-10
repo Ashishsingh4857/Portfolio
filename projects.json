@@ -3,8 +3,8 @@
 		"id": 1,
 		"name": "Pizza App",
 		"description": "Pizza app UI with login auth and add-to-cart functionality with admin panel.",
-		"githubLink": "https://github.com/",
-		"liveDemoLink": "https://pizzaslice.run.place/",
+		"githubLink": "https://github.com/Ashishsingh4857/Realtime-pizza-tracking-app",
+		"liveDemoLink": "https://pizza.run.place/",
 		"image": "./assets/project-1.png"
 	},
 	{
@@ -12,7 +12,7 @@
 		"name": "Weather Application",
 		"description": "Weather application with real-time API weather data provided by OpenWeather.",
 		"githubLink": "https://github.com/",
-		"liveDemoLink": "#",
+		"liveDemoLink": "https://splendorous-wisp-d37006.netlify.app/",
 		"image": "./assets/project-2.png"
 	},
 	{
@@ -28,7 +28,7 @@
 		"name": "Quote Generator",
 		"description": "Generate random quotes with a click of a button. Get inspired and share your favorite quotes.",
 		"githubLink": "https://github.com/",
-		"liveDemoLink": "https://celadon-liger-245f21.netlify.app/",
+		"liveDemoLink": "#",
 		"image": "./assets/project-4.png"
 	},
 	{
@@ -36,7 +36,7 @@
 		"name": "Random Password Generator",
 		"description": "Generate strong & secure passwords for all your online accounts with our random password generator.",
 		"githubLink": "https://github.com/",
-		"liveDemoLink": "https://celadon-liger-245f21.netlify.app/",
+		"liveDemoLink": "#",
 		"image": "./assets/project-5.png"
 	},
 	{
@@ -44,7 +44,7 @@
 		"name": "Gradient Generator",
 		"description": "This website lets you create a colorful gradient background for your website, blog, or social media profile.",
 		"githubLink": "https://github.com/",
-		"liveDemoLink": "https://celadon-liger-245f21.netlify.app/",
+		"liveDemoLink": "https://capable-cascaron-47b308.netlify.app/",
 		"image": "./assets/project-6.png"
 	}
 ]
