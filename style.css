@@ -13,6 +13,10 @@
 	--color-primary: black;
 	--color-secondary: rgb(250, 250, 250);
 	--color-accent: purple;
+
+	--box-shadow-primary: 10px 13px 20px 0px rgba(224, 156, 224, 1);
+	--box-shadow-secondary: 3px 8px 25px -1px rgba(71, 6, 71, 0.12);
+	--box-shadow-tertiary: 3px 8px 12px -1px rgba(71, 6, 71, 0.3);
 }
 
 * {
@@ -350,7 +354,6 @@ section {
 	padding: 1.2rem;
 	background: var(--color-background);
 	border-radius: 1rem;
-	border: 0.1rem solid var(--color-border);
 	text-align: center;
 }
 
@@ -361,6 +364,9 @@ section {
 	object-fit: cover; /* Ensures the image maintains its aspect ratio */
 	display: block; /* Removes inline spacing issues */
 	margin: 0 auto; /* Centers the image inside the container */
+	-webkit-box-shadow: var(--box-shadow-secondary);
+	-moz-box-shadow: var(--box-shadow-secondary);
+	box-shadow: var(--box-shadow-secondary);
 }
 
 .arrow {
@@ -374,8 +380,12 @@ section {
 	flex: 1;
 
 	border-radius: 1rem;
-	border: 0.1rem solid var(--color-border);
+	border: none; /* Remove border */
+
 	text-align: center;
+	-webkit-box-shadow: var(--box-shadow-secondary);
+	-moz-box-shadow: var(--box-shadow-secondary);
+	box-shadow: var(--box-shadow-secondary);
 }
 
 /* Responsive adjustments */
@@ -440,7 +450,19 @@ article .icon {
 
 .color-container {
 	border-color: var(--color-border);
+	border: none; /* Remove border */
+	-webkit-box-shadow: var(--box-shadow-secondary);
+	-moz-box-shadow: var(--box-shadow-secondary);
+	box-shadow: var(--box-shadow-secondary);
 	background: var(--color-secondary);
+}
+.color-container:hover {
+	scale: 1.05;
+	transition: all 0.3s ease-in-out;
+
+	box-shadow: var(--box-shadow-tertiary);
+	-webkit-box-shadow: var(--box-shadow-tertiary);
+	-moz-box-shadow: var(--box-shadow-tertiary);
 }
 
 .project-img {
@@ -469,14 +491,17 @@ article .icon {
 }
 
 .contact-info-upper-container {
-	display: flex;
-	justify-content: center;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+
 	border-radius: 2rem;
-	border: var(--color-primary) 0.1rem solid;
-	border-color: var(--color-border);
+
 	background: var(--color-secondary);
 	margin: 2rem auto;
 	padding: 0.5rem;
+	-webkit-box-shadow: var(--box-shadow-secondary);
+	-moz-box-shadow: var(--box-shadow-secondary);
+	box-shadow: var(--box-shadow-secondary);
 }
 
 .contact-info-container {
