@@ -4,7 +4,7 @@
 		height: 83vh;
 		margin-bottom: 6rem;
 	}
-	.about-containers {
+	.project-containers {
 		grid-template-columns: repeat(
 			auto-fit,
 			minmax(250px, 1fr)
@@ -25,7 +25,7 @@
 	#hamburger-nav {
 		display: flex;
 	}
-	.about-containers {
+	.project-containers {
 		grid-template-columns: repeat(
 			auto-fit,
 			minmax(200px, 1fr)
@@ -55,7 +55,7 @@
 		height: 275px;
 		margin: 0 auto 2rem;
 	}
-	.about-containers {
+	.project-containers {
 		margin-top: 0;
 	}
 }
@@ -77,7 +77,7 @@
 		height: fit-content;
 		margin-bottom: 2rem;
 	}
-	.about-containers,
+	.project-containers,
 	.contact-info-upper-container,
 	.btn-container {
 		grid-template-columns: 1fr; /* Single column layout for small screens */
@@ -134,7 +134,7 @@
 	.section__pic-container {
 		height: 50vw;
 	}
-	.about-containers {
+	.project-containers {
 		grid-template-columns: 1fr; /* Single column for very small screens */
 		gap: 1rem;
 	}

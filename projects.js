@@ -4,7 +4,7 @@ fetch("./projects.json")
 	.then((projects) => {
 		// Select the correct container for the Projects section
 		const projectsContainer = document.querySelector(
-			"#projects .projects-container"
+			".project-containers"
 		);
 
 		// Iterate over the projects and dynamically create HTML
@@ -27,7 +27,11 @@ fetch("./projects.json")
         </div>
       `;
 
-			projectsContainer.appendChild(projectCard);
+			if (projectsContainer) {
+				projectsContainer.appendChild(projectCard);
+			} else {
+				console.error("projectsContainer element not found!");
+			}
 		});
 	})
 	.catch((error) => console.error("Error loading projects:", error));
