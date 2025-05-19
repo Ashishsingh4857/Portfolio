@@ -22,13 +22,13 @@
 * {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 
 body {
 	overflow-x: hidden; /* Prevent horizontal scrolling */
 	max-width: 100vw;
 
-	padding: 0 2rem;
 	font-family: "Roboto Condensed", sans-serif; /* Apply Roboto Condensed */
 	text-transform: capitalize; /* Capitalize all text */
 	color: var(--color-text); /* Optional: Ensure consistent text color */
@@ -369,12 +369,6 @@ section {
 	box-shadow: var(--box-shadow-secondary);
 }
 
-.arrow {
-	position: absolute;
-	right: -5rem;
-	bottom: 2.5rem;
-}
-
 .details-container {
 	padding: 1.5rem;
 	flex: 1;
@@ -394,18 +388,6 @@ section {
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 	gap: 2rem;
 	margin: 2rem 0;
-}
-
-/* Responsive adjustments */
-@media (max-width: 768px) {
-	.arrow {
-		right: -2rem;
-		bottom: 1.5rem;
-	}
-
-	.project-containers {
-		gap: 1.5rem;
-	}
 }
 
 /* EXPERIENCE SECTION */
